@@ -1,0 +1,1944 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZupBet - Análises Esportivas Premium</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0iYWlHcmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzQjgyRjY7c3RvcC1vcGFjaXR5OjEiIC8+CjxzdG9wIG9mZnNldD0iNTAlIiBzdHlsZT0ic3RvcC1jb2xvcjojOEI1Q0Y2O3N0b3Atb3BhY2l0eToxIiAvPgo8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNFQzQ4OTk7c3RvcC1vcGFjaXR5OjEiIC8+CjwvbGluZWFyR3JhZGllbnQ+CjxsaW5lYXJHcmFkaWVudCBpZD0iYmFsbEdyYWRpZW50IiB4MT0iMzAlIiB5MT0iMzAlIiB4Mj0iNzAlIiB5Mj0iNzAlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6I0ZGRkZGRjtzdG9wLW9wYWNpdHk6MSIgLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojRDFENURCO3N0b3Atb3BhY2l0eToxIiAvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+CjxyZWN0IHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgcng9IjYiIGZpbGw9InVybCgjYWlHcmFkaWVudCkiLz4KPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMTAiIGZpbGw9InVybCgjYmFsbEdyYWRpZW50KSIgc3Ryb2tlPSIjMzc0MTUxIiBzdHJva2Utd2lkdGg9IjEuNSIvPgo8cG9seWdvbiBwb2ludHM9IjE2LDggMTEsMTIgMTEsMjAgMTYsMjQgMjEsMjAgMjEsMTIiIGZpbGw9IiMzNzQxNTEiIG9wYWNpdHk9IjAuNCIvPgo8dGV4dCB4PSIxNiIgeT0iMjgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IndoaXRlIiBmb250LXNpemU9IjgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LWZhbWlseT0iQXJpYWwiPkFJPC90ZXh0Pgo8L3N2Zz4K">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg { 
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #8b5cf6 100%); 
+            position: relative;
+        }
+        .card-hover { 
+            transition: all 0.3s ease; 
+        }
+        .card-hover:hover { 
+            transform: translateY(-8px) scale(1.02); 
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); 
+        }
+        .sports-bg {
+            background-image: 
+                radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.3) 0%, transparent 50%);
+        }
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-slate-100 via-gray-100 to-blue-100">
+    <!-- Navigation -->
+    <nav class="bg-gradient-to-r from-purple-900 via-indigo-900 to-purple-800 shadow-lg fixed w-full top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-16">
+            <!-- Lado esquerdo - Logo -->
+           <!-- LOGO COM LINK PARA O TOPO -->
+<a href="index.html#top" class="flex-shrink-0 flex items-center hover:opacity-90 transition-opacity">
+    <i class="fas fa-chart-line text-yellow-400 text-2xl mr-2"></i>
+    <div>
+        <span class="text-2xl font-bold text-white">ZupBet</span>
+        <p class="text-xs text-purple-200 font-medium">Estatística que vira lucro</p>
+    </div>
+</a>
+
+
+            <!-- Itens do menu -->
+            <div class="hidden md:flex items-center space-x-6">
+                <button onclick="showAbout()" class="text-purple-200 hover:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium">
+                    Sobre Nós
+                </button>
+                <button onclick="showPlans()" class="text-purple-200 hover:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium">
+                    Planos
+                </button>
+                <button onclick="showSupport()" class="text-purple-200 hover:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium">
+                    Suporte
+                </button>
+                <button onclick="showFAQ()" class="text-purple-200 hover:text-yellow-400 px-3 py-2 rounded-md text-sm font-medium">
+                    FAQ
+                </button>
+            </div>
+
+            <!-- Área do usuário -->
+            <div class="flex items-center space-x-4">
+    <!-- Indicador de Membro Premium -->
+    <!-- Indicador de Membro Premium -->
+<div class="hidden md:flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-lg px-3 py-2">
+    <i class="fas fa-crown text-yellow-400"></i>
+    <span class="text-white text-sm font-medium">Membro Premium</span>
+</div>
+
+<!-- Mensagem de boas-vindas -->
+<span id="userWelcome" class="text-yellow-400 font-bold hidden md:block">Bem-vindo, Analista Premium!</span>
+
+
+
+<!-- Botão Entrar (agora com estilo de botão real) -->
+<button onclick="showLogin()" class="bg-purple-700 hover:bg-purple-800 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors shadow-md">
+    Entrar
+</button>
+
+<!-- Botão Registrar -->
+<button onclick="showRegister()" class="bg-yellow-500 hover:bg-yellow-600 text-purple-900 px-4 py-2 rounded-md text-sm font-medium font-bold">
+    Registrar
+</button>
+
+<!-- Botão Sair (movido para o fim) -->
+<button onclick="logout()" class="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors shadow-lg">
+    <i class="fas fa-sign-out-alt mr-1"></i> Sair
+</button>
+
+</div>
+
+        </div>
+    </div>
+</nav>
+
+
+
+
+    <!-- About Page -->
+    <div id="aboutPage" class="hidden pt-16 min-h-screen bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-gray-900 mb-4">Sobre o ZupBet</h1>
+                <p class="text-xl text-gray-600">Estatística que vira lucro</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-6">Nossa História</h2>
+                    <p class="text-gray-600 mb-4">
+                        Fundado em 2020, o ZupBet nasceu da paixão por esportes e da necessidade de democratizar o acesso a análises estatísticas de qualidade profissional.
+                    </p>
+                    <p class="text-gray-600 mb-4">
+                        Nossa equipe é formada por analistas esportivos experientes, cientistas de dados e desenvolvedores especializados em inteligência artificial aplicada ao esporte.
+                    </p>
+                    <p class="text-gray-600">
+                        Hoje, somos referência em análises esportivas no Brasil, com mais de 50.000 usuários ativos e uma taxa de acerto superior a 75%.
+                    </p>
+                </div>
+                <div class="bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl p-8 text-white">
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold">50K+</div>
+                            <div class="text-sm opacity-90">Usuários Ativos</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold">75%</div>
+                            <div class="text-sm opacity-90">Taxa de Acerto</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold">1M+</div>
+                            <div class="text-sm opacity-90">Análises Realizadas</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold">24/7</div>
+                            <div class="text-sm opacity-90">Suporte Ativo</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="text-center">
+                    <div class="w-16 h-16 mx-auto mb-4 bg-blue-100 rounded-full flex items-center justify-center">
+                        <i class="fas fa-target text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Missão</h3>
+                    <p class="text-gray-600">Democratizar o acesso a análises esportivas de qualidade, transformando dados em oportunidades reais de lucro.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center">
+                        <i class="fas fa-eye text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Visão</h3>
+                    <p class="text-gray-600">Ser a principal plataforma de análises esportivas da América Latina, reconhecida pela precisão e inovação.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 mx-auto mb-4 bg-purple-100 rounded-full flex items-center justify-center">
+                        <i class="fas fa-heart text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Valores</h3>
+                    <p class="text-gray-600">Transparência, precisão, inovação e compromisso com o sucesso dos nossos usuários.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms Page -->
+    <div id="termsPage" class="hidden pt-16 min-h-screen bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <h1 class="text-3xl font-bold text-gray-900 mb-8">Termos de Uso</h1>
+                
+                <div class="space-y-6 text-gray-600">
+                    <section>
+                        <h2 class="text-xl font-semibold text-gray-900 mb-3">1. Aceitação dos Termos</h2>
+                        <p>Ao acessar e usar o ZupBet, você concorda em cumprir estes termos de uso. Se você não concordar com qualquer parte destes termos, não deve usar nossos serviços.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-xl font-semibold text-gray-900 mb-3">2. Descrição do Serviço</h2>
+                        <p>O ZupBet é uma plataforma de análises esportivas que fornece estatísticas, previsões e insights para fins informativos e educacionais.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-xl font-semibold text-gray-900 mb-3">3. Responsabilidades do Usuário</h2>
+                        <ul class="list-disc pl-6 space-y-2">
+                            <li>Fornecer informações precisas durante o cadastro</li>
+                            <li>Manter a confidencialidade de sua conta</li>
+                            <li>Usar o serviço apenas para fins legais</li>
+                            <li>Não compartilhar conteúdo premium com terceiros</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="text-xl font-semibold text-gray-900 mb-3">4. Limitações de Responsabilidade</h2>
+                        <p>As análises fornecidas são baseadas em dados estatísticos e não garantem resultados. O usuário é responsável por suas próprias decisões de apostas.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-xl font-semibold text-gray-900 mb-3">5. Propriedade Intelectual</h2>
+                        <p>Todo o conteúdo do ZupBet, incluindo análises, algoritmos e design, é protegido por direitos autorais e propriedade intelectual.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-xl font-semibold text-gray-900 mb-3">6. Modificações dos Termos</h2>
+                        <p>Reservamo-nos o direito de modificar estes termos a qualquer momento. As alterações entrarão em vigor imediatamente após a publicação.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Privacy Page -->
+    <div id="privacyPage" class="hidden pt-16 min-h-screen bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <h1 class="text-3xl font-bold text-gray-900 mb-8">Política de Privacidade</h1>
+                
+                <div class="space-y-6 text-gray-600">
+                    <section>
+                        <h2 class="text-xl font-semibold text-gray-900 mb-3">1. Coleta de Informações</h2>
+                        <p>Coletamos informações que você nos fornece diretamente, como nome, email e dados de pagamento, além de informações de uso da plataforma.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-xl font-semibold text-gray-900 mb-3">2. Uso das Informações</h2>
+                        <ul class="list-disc pl-6 space-y-2">
+                            <li>Fornecer e melhorar nossos serviços</li>
+                            <li>Processar pagamentos e transações</li>
+                            <li>Enviar comunicações importantes</li>
+                            <li>Personalizar sua experiência</li>
+                            <li>Cumprir obrigações legais</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="text-xl font-semibold text-gray-900 mb-3">3. Compartilhamento de Dados</h2>
+                        <p>Não vendemos, alugamos ou compartilhamos suas informações pessoais com terceiros, exceto quando necessário para fornecer nossos serviços ou quando exigido por lei.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-xl font-semibold text-gray-900 mb-3">4. Segurança dos Dados</h2>
+                        <p>Implementamos medidas de segurança técnicas e organizacionais para proteger suas informações contra acesso não autorizado, alteração, divulgação ou destruição.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-xl font-semibold text-gray-900 mb-3">5. Seus Direitos</h2>
+                        <ul class="list-disc pl-6 space-y-2">
+                            <li>Acessar suas informações pessoais</li>
+                            <li>Corrigir dados incorretos</li>
+                            <li>Solicitar exclusão de dados</li>
+                            <li>Portabilidade de dados</li>
+                            <li>Retirar consentimento</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="text-xl font-semibold text-gray-900 mb-3">6. Cookies</h2>
+                        <p>Utilizamos cookies para melhorar sua experiência, analisar o uso do site e personalizar conteúdo. Você pode gerenciar suas preferências de cookies nas configurações do navegador.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Support Page -->
+    <div id="supportPage" class="hidden pt-16 min-h-screen bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-gray-900 mb-4">Suporte Técnico</h1>
+                <p class="text-xl text-gray-600">Estamos aqui para ajudar você</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                    <div class="w-16 h-16 mx-auto mb-4 bg-blue-100 rounded-full flex items-center justify-center">
+                        <i class="fas fa-headset text-2xl text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Chat Online</h3>
+                    <p class="text-gray-600 mb-4">Suporte em tempo real durante horário comercial</p>
+                    <button class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg">
+                        Iniciar Chat
+                    </button>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                    <div class="w-16 h-16 mx-auto mb-4 bg-green-100 rounded-full flex items-center justify-center">
+                        <i class="fas fa-envelope text-2xl text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Email</h3>
+                    <p class="text-gray-600 mb-4">Resposta em até 24 horas</p>
+                    <a href="mailto:suporte@zupbet.com.br" class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg inline-block">
+                        Enviar Email
+                    </a>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                    <div class="w-16 h-16 mx-auto mb-4 bg-purple-100 rounded-full flex items-center justify-center">
+                        <i class="fab fa-whatsapp text-2xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-4">WhatsApp</h3>
+                    <p class="text-gray-600 mb-4">Atendimento rápido e personalizado</p>
+                    <a href="https://wa.me/5561981105902" target="_blank" rel="noopener noreferrer" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2 rounded-lg inline-block">
+                        Abrir WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-2xl font-bold text-gray-900 mb-6">Formulário de Contato</h2>
+                <form onsubmit="submitSupportForm(event)" class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-gray-700 text-sm font-bold mb-2">Nome Completo</label>
+                        <input type="text" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                        <input type="email" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 text-sm font-bold mb-2">Telefone</label>
+                        <input type="tel" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 text-sm font-bold mb-2">Categoria</label>
+                        <select class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option>Problema Técnico</option>
+                            <option>Dúvida sobre Planos</option>
+                            <option>Problema de Pagamento</option>
+                            <option>Sugestão</option>
+                            <option>Outro</option>
+                        </select>
+                    </div>
+                    <div class="md:col-span-2">
+                        <label class="block text-gray-700 text-sm font-bold mb-2">Mensagem</label>
+                        <textarea rows="4" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+                    <div class="md:col-span-2">
+                        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-md">
+                            Enviar Mensagem
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Page -->
+    <div id="faqPage" class="hidden pt-16 min-h-screen bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-gray-900 mb-4">Perguntas Frequentes</h1>
+                <p class="text-xl text-gray-600">Encontre respostas para as dúvidas mais comuns</p>
+            </div>
+
+            <div class="space-y-4">
+                <div class="bg-white rounded-lg shadow-lg">
+                    <button onclick="toggleFAQ(1)" class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50">
+                        <span class="font-semibold text-gray-900">Como funciona o ZupBet?</span>
+                        <i class="fas fa-chevron-down text-gray-500" id="faq-icon-1"></i>
+                    </button>
+                    <div id="faq-content-1" class="hidden px-6 pb-4">
+                        <p class="text-gray-600">O ZupBet é uma plataforma que utiliza inteligência artificial e análise estatística avançada para fornecer previsões e insights sobre jogos esportivos. Nossa equipe de analistas trabalha 24/7 para entregar as melhores análises do mercado.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg">
+                    <button onclick="toggleFAQ(2)" class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50">
+                        <span class="font-semibold text-gray-900">Qual a taxa de acerto das análises?</span>
+                        <i class="fas fa-chevron-down text-gray-500" id="faq-icon-2"></i>
+                    </button>
+                    <div id="faq-content-2" class="hidden px-6 pb-4">
+                        <p class="text-gray-600">Nossa taxa de acerto média é superior a 75%, com algumas categorias chegando a 85%. Mantemos transparência total sobre nossos resultados e você pode acompanhar o histórico completo no dashboard.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg">
+                    <button onclick="toggleFAQ(3)" class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50">
+                        <span class="font-semibold text-gray-900">Como posso cancelar minha assinatura?</span>
+                        <i class="fas fa-chevron-down text-gray-500" id="faq-icon-3"></i>
+                    </button>
+                    <div id="faq-content-3" class="hidden px-6 pb-4">
+                        <p class="text-gray-600">Você pode cancelar sua assinatura a qualquer momento através do dashboard ou entrando em contato com nosso suporte. O cancelamento é processado imediatamente e você mantém acesso até o final do período pago.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg">
+                    <button onclick="toggleFAQ(4)" class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50">
+                        <span class="font-semibold text-gray-900">Quais esportes são cobertos?</span>
+                        <i class="fas fa-chevron-down text-gray-500" id="faq-icon-4"></i>
+                    </button>
+                    <div id="faq-content-4" class="hidden px-6 pb-4">
+                        <p class="text-gray-600">Cobrimos futebol (nacional e internacional), basquete (NBA, NBB), tênis, vôlei, e-sports e outros esportes populares. Estamos constantemente expandindo nossa cobertura baseada na demanda dos usuários.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg">
+                    <button onclick="toggleFAQ(5)" class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50">
+                        <span class="font-semibold text-gray-900">Posso usar no celular?</span>
+                        <i class="fas fa-chevron-down text-gray-500" id="faq-icon-5"></i>
+                    </button>
+                    <div id="faq-content-5" class="hidden px-6 pb-4">
+                        <p class="text-gray-600">Sim! Nossa plataforma é totalmente responsiva e funciona perfeitamente em smartphones, tablets e computadores. Também temos notificações push para você não perder nenhuma análise importante.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg">
+                    <button onclick="toggleFAQ(6)" class="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-gray-50">
+                        <span class="font-semibold text-gray-900">Há garantia de reembolso?</span>
+                        <i class="fas fa-chevron-down text-gray-500" id="faq-icon-6"></i>
+                    </button>
+                    <div id="faq-content-6" class="hidden px-6 pb-4">
+                        <p class="text-gray-600">Oferecemos garantia de 7 dias para novos usuários. Se não ficar satisfeito com nossos serviços, entre em contato conosco e processaremos o reembolso integral sem questionamentos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="fixed inset-0 bg-black bg-opacity-50 hidden z-50 flex items-center justify-center">
+        <div class="bg-white rounded-lg p-8 max-w-md w-full mx-4">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold text-gray-900">Entrar</h2>
+                <button onclick="closeModal()" class="text-gray-400 hover:text-gray-600">
+                    <i class="fas fa-times text-xl"></i>
+                </button>
+            </div>
+            <form onsubmit="handleLogin(event)">
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                    <input type="email" id="loginEmail" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-700 text-sm font-bold mb-2">Senha</label>
+                    <input type="password" id="loginPassword" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md">
+                    Entrar
+                </button>
+                <div class="mt-4 text-center">
+                    <a href="#" class="text-blue-600 hover:text-blue-800 text-sm">Esqueceu sua senha?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="registerModal" class="fixed inset-0 bg-black bg-opacity-50 hidden z-50 flex items-center justify-center">
+        <div class="bg-white rounded-lg p-8 max-w-md w-full mx-4">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold text-gray-900">Criar Conta</h2>
+                <button onclick="closeModal()" class="text-gray-400 hover:text-gray-600">
+                    <i class="fas fa-times text-xl"></i>
+                </button>
+            </div>
+            <form onsubmit="handleRegister(event)">
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2">Nome Completo</label>
+                    <input type="text" id="registerName" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                    <input type="email" id="registerEmail" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2">Senha</label>
+                    <input type="password" id="registerPassword" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2">Confirmar Senha</label>
+                    <input type="password" id="confirmPassword" required class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="mb-6">
+                    <label class="flex items-center">
+                        <input type="checkbox" required class="mr-2">
+                        <span class="text-sm text-gray-700">Aceito os <button type="button" onclick="showTerms()" class="text-blue-600 hover:text-blue-800">termos de uso</button></span>
+                    </label>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md">
+                    Criar Conta
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Plans Page -->
+    <div id="plansPage" class="hidden pt-16 min-h-screen bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl font-bold text-gray-900 mb-4">Escolha seu Plano Premium</h1>
+                <p class="text-xl text-gray-600">Acesso completo às nossas análises e estatísticas exclusivas</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Monthly Plan -->
+                <div class="bg-white rounded-lg shadow-lg p-8 card-hover">
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Mensal</h3>
+                        <div class="text-4xl font-bold text-blue-600 mb-2">R$ 49</div>
+                        <div class="text-gray-500 mb-6">por mês</div>
+                        <ul class="text-left space-y-3 mb-8">
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Análises diárias</li>
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Estatísticas avançadas</li>
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Suporte por email</li>
+                        </ul>
+                        <button onclick="selectPlan('monthly', 49)" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-md">
+                            Escolher Plano
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Quarterly Plan -->
+                <div class="bg-white rounded-lg shadow-lg p-8 card-hover border-2 border-blue-500 relative">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                        <span class="bg-blue-500 text-white px-4 py-1 rounded-full text-sm font-semibold">Mais Popular</span>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Trimestral</h3>
+                        <div class="text-4xl font-bold text-blue-600 mb-2">R$ 129</div>
+                        <div class="text-gray-500 mb-2">por 3 meses</div>
+                        <div class="text-green-600 text-sm font-semibold mb-6">Economize 12%</div>
+                        <ul class="text-left space-y-3 mb-8">
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Tudo do plano mensal</li>
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Relatórios semanais</li>
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Suporte prioritário</li>
+                        </ul>
+                        <button onclick="selectPlan('quarterly', 129)" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-md">
+                            Escolher Plano
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Annual Plan -->
+                <div class="bg-white rounded-lg shadow-lg p-8 card-hover">
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Anual</h3>
+                        <div class="text-4xl font-bold text-blue-600 mb-2">R$ 399</div>
+                        <div class="text-gray-500 mb-2">por ano</div>
+                        <div class="text-green-600 text-sm font-semibold mb-6">Economize 32%</div>
+                        <ul class="text-left space-y-3 mb-8">
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Tudo dos outros planos</li>
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Consultoria personalizada</li>
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Acesso antecipado</li>
+                        </ul>
+                        <button onclick="selectPlan('annual', 399)" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-md">
+                            Escolher Plano
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Payment Page -->
+    <div id="paymentPage" class="hidden pt-16 min-h-screen bg-gray-50">
+        <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Finalizar Pagamento</h2>
+                
+                <div id="selectedPlanInfo" class="bg-blue-50 p-6 rounded-lg mb-8">
+                    <!-- Plan info will be inserted here -->
+                </div>
+
+                <form onsubmit="processPayment(event)">
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold mb-4">Método de Pagamento</h3>
+                        <div class="space-y-3">
+                            <label class="flex items-center p-4 border rounded-lg cursor-pointer hover:bg-gray-50">
+                                <input type="radio" name="paymentMethod" value="pix" checked class="mr-3">
+                                <i class="fas fa-qrcode text-green-600 mr-2"></i>
+                                <span>PIX - Aprovação instantânea</span>
+                            </label>
+                            <label class="flex items-center p-4 border rounded-lg cursor-pointer hover:bg-gray-50">
+                                <input type="radio" name="paymentMethod" value="card" class="mr-3">
+                                <i class="fas fa-credit-card text-blue-600 mr-2"></i>
+                                <span>Cartão de Crédito</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div id="cardDetails" class="hidden mb-6">
+                        <div class="grid grid-cols-1 gap-4">
+                            <div>
+                                <label class="block text-gray-700 text-sm font-bold mb-2">Número do Cartão</label>
+                                <input type="text" placeholder="1234 5678 9012 3456" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            </div>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-gray-700 text-sm font-bold mb-2">Validade</label>
+                                    <input type="text" placeholder="MM/AA" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                </div>
+                                <div>
+                                    <label class="block text-gray-700 text-sm font-bold mb-2">CVV</label>
+                                    <input type="text" placeholder="123" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-4 rounded-md text-lg">
+                        Confirmar Pagamento
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dashboard -->
+    <div id="dashboard" class="pt-16 min-h-screen bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50 sports-bg">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-purple-900 via-indigo-900 to-purple-800 text-white py-16 relative overflow-hidden">
+            <div class="absolute inset-0 opacity-10">
+                <svg viewBox="0 0 1200 600" class="w-full h-full">
+                    <!-- Soccer ball pattern -->
+                    <circle cx="100" cy="100" r="30" fill="white" opacity="0.3"/>
+                    <circle cx="300" cy="200" r="25" fill="white" opacity="0.2"/>
+                    <circle cx="500" cy="150" r="35" fill="white" opacity="0.25"/>
+                    <circle cx="800" cy="250" r="28" fill="white" opacity="0.3"/>
+                    <circle cx="1000" cy="180" r="32" fill="white" opacity="0.2"/>
+                    <!-- Basketball pattern -->
+                    <circle cx="200" cy="400" r="40" fill="orange" opacity="0.2"/>
+                    <circle cx="600" cy="450" r="35" fill="orange" opacity="0.15"/>
+                    <circle cx="900" cy="400" r="38" fill="orange" opacity="0.2"/>
+                </svg>
+            </div>
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="bg-black bg-opacity-50 p-8 rounded-lg max-w-3xl mx-auto text-center lg:text-left">
+    <h1 class="text-5xl font-bold mb-6 text-yellow-400">Análises Esportivas usando a inteligência artificial</h1>
+    <p class="text-xl mb-8 text-gray-400 font-bold">
+    Nossa IA analisa milhares de dados em tempo real para fornecer as previsões mais precisas do mercado. Algoritmos avançados processam estatísticas, histórico de jogos e tendências para maximizar seus resultados.
+</p>
+
+    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+        <button onclick="showPlans()" class="bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg shadow-lg transform hover:scale-105 transition-all duration-300">
+            <i class="fas fa-rocket mr-2"></i>
+            Começar Agora
+        </button>
+        <button onclick="showAbout()" class="bg-white/20 backdrop-blur-sm hover:bg-white/30 text-white font-bold py-4 px-8 rounded-lg text-lg border border-white/30 transition-all duration-300">
+            <i class="fas fa-info-circle mr-2"></i>
+            Saiba Mais
+        </button>
+    </div>
+</div>
+
+                    <div class="flex justify-center lg:justify-end">
+                        <div class="relative">
+                            <svg width="450" height="450" viewBox="0 0 450 450" class="drop-shadow-2xl">
+                                <defs>
+                                    <!-- Gradients -->
+                                    <radialGradient id="fieldGradient" cx="50%" cy="50%" r="50%">
+                                        <stop offset="0%" style="stop-color:#22C55E;stop-opacity:0.3"/>
+                                        <stop offset="100%" style="stop-color:#15803D;stop-opacity:0.1"/>
+                                    </radialGradient>
+                                    <linearGradient id="aiCoreGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#3B82F6"/>
+                                        <stop offset="50%" style="stop-color:#8B5CF6"/>
+                                        <stop offset="100%" style="stop-color:#EC4899"/>
+                                    </linearGradient>
+                                    <linearGradient id="ballGradient" x1="30%" y1="30%" x2="70%" y2="70%">
+                                        <stop offset="0%" style="stop-color:#FFFFFF"/>
+                                        <stop offset="100%" style="stop-color:#D1D5DB"/>
+                                    </linearGradient>
+                                    <linearGradient id="neuralGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#10B981"/>
+                                        <stop offset="50%" style="stop-color:#3B82F6"/>
+                                        <stop offset="100%" style="stop-color:#F59E0B"/>
+                                    </linearGradient>
+                                </defs>
+                                
+                                <!-- Football field background -->
+                                <rect x="50" y="50" width="350" height="350" rx="20" fill="url(#fieldGradient)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+                                
+                                <!-- Field lines -->
+                                <g stroke="rgba(255,255,255,0.4)" stroke-width="2" fill="none">
+                                    <!-- Center line -->
+                                    <line x1="225" y1="50" x2="225" y2="400"/>
+                                    <!-- Center circle -->
+                                    <circle cx="225" cy="225" r="50"/>
+                                    <!-- Penalty areas -->
+                                    <rect x="50" y="150" width="60" height="150"/>
+                                    <rect x="340" y="150" width="60" height="150"/>
+                                    <!-- Goal areas -->
+                                    <rect x="50" y="190" width="25" height="70"/>
+                                    <rect x="375" y="190" width="25" height="70"/>
+                                </g>
+                                
+                                <!-- Central AI Brain -->
+                                <g transform="translate(225,225)">
+                                    <!-- AI Core with pulsing effect -->
+                                    <circle cx="0" cy="0" r="35" fill="url(#aiCoreGradient)" opacity="0.9">
+                                        <animate attributeName="r" values="35;42;35" dur="3s" repeatCount="indefinite"/>
+                                        <animate attributeName="opacity" values="0.9;0.7;0.9" dur="3s" repeatCount="indefinite"/>
+                                    </circle>
+                                    
+                                    <!-- Inner AI symbol -->
+                                    <text x="0" y="8" text-anchor="middle" fill="white" font-size="16" font-weight="bold" font-family="Arial">AI</text>
+                                    
+                                    <!-- Neural network connections -->
+                                    <g stroke="url(#neuralGradient)" stroke-width="3" fill="none" opacity="0.8">
+                                        <!-- Main neural paths -->
+                                        <path d="M 0,0 L 80,-60 L 120,-40">
+                                            <animate attributeName="stroke-dasharray" values="0 200;100 100;0 200" dur="4s" repeatCount="indefinite"/>
+                                        </path>
+                                        <path d="M 0,0 L -70,-80 L -110,-50">
+                                            <animate attributeName="stroke-dasharray" values="100 100;0 200;100 100" dur="3.5s" repeatCount="indefinite"/>
+                                        </path>
+                                        <path d="M 0,0 L 90,50 L 130,80">
+                                            <animate attributeName="stroke-dasharray" values="50 150;150 50;50 150" dur="3.8s" repeatCount="indefinite"/>
+                                        </path>
+                                        <path d="M 0,0 L -85,70 L -125,45">
+                                            <animate attributeName="stroke-dasharray" values="0 200;100 100;0 200" dur="4.2s" repeatCount="indefinite"/>
+                                        </path>
+                                        <path d="M 0,0 L 0,-100 L 30,-130">
+                                            <animate attributeName="stroke-dasharray" values="75 125;125 75;75 125" dur="3.2s" repeatCount="indefinite"/>
+                                        </path>
+                                        <path d="M 0,0 L 0,95 L -25,125">
+                                            <animate attributeName="stroke-dasharray" values="25 175;175 25;25 175" dur="3.7s" repeatCount="indefinite"/>
+                                        </path>
+                                    </g>
+                                    
+                                    <!-- Data processing nodes -->
+                                    <circle cx="80" cy="-60" r="12" fill="#10B981">
+                                        <animate attributeName="r" values="12;18;12" dur="2.5s" repeatCount="indefinite"/>
+                                    </circle>
+                                    <circle cx="-70" cy="-80" r="10" fill="#3B82F6">
+                                        <animate attributeName="r" values="10;16;10" dur="2.8s" repeatCount="indefinite"/>
+                                    </circle>
+                                    <circle cx="90" cy="50" r="14" fill="#F59E0B">
+                                        <animate attributeName="r" values="14;20;14" dur="2.2s" repeatCount="indefinite"/>
+                                    </circle>
+                                    <circle cx="-85" cy="70" r="11" fill="#EF4444">
+                                        <animate attributeName="r" values="11;17;11" dur="2.6s" repeatCount="indefinite"/>
+                                    </circle>
+                                    <circle cx="0" cy="-100" r="13" fill="#8B5CF6">
+                                        <animate attributeName="r" values="13;19;13" dur="2.4s" repeatCount="indefinite"/>
+                                    </circle>
+                                    <circle cx="0" cy="95" r="12" fill="#EC4899">
+                                        <animate attributeName="r" values="12;18;12" dur="2.7s" repeatCount="indefinite"/>
+                                    </circle>
+                                </g>
+                                
+                                <!-- Football with AI analysis -->
+                                <g transform="translate(150,150)">
+                                    <!-- Main football -->
+                                    <circle cx="0" cy="0" r="35" fill="url(#ballGradient)" stroke="#374151" stroke-width="3"/>
+                                    
+                                    <!-- Classic football pattern -->
+                                    <g fill="#374151" opacity="0.4">
+                                        <polygon points="0,-30 -15,-10 -15,10 0,30 15,10 15,-10"/>
+                                        <polygon points="-25,-15 -30,0 -25,15 -10,20 -5,5 -10,-5"/>
+                                        <polygon points="25,-15 30,0 25,15 10,20 5,5 10,-5"/>
+                                        <polygon points="-15,-25 0,-35 15,-25 10,-10 -10,-10"/>
+                                        <polygon points="-15,25 0,35 15,25 10,10 -10,10"/>
+                                    </g>
+                                    
+                                    <!-- AI analysis overlay -->
+                                    <circle cx="0" cy="0" r="45" fill="none" stroke="#3B82F6" stroke-width="2" opacity="0.6" stroke-dasharray="5,5">
+                                        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="8s" repeatCount="indefinite"/>
+                                    </circle>
+                                    
+                                    <!-- Rotation animation -->
+                                    <animateTransform attributeName="transform" type="rotate" values="0 150 150;360 150 150" dur="12s" repeatCount="indefinite"/>
+                                </g>
+                                
+                                <!-- Second football with different analysis -->
+                                <g transform="translate(320,300)">
+                                    <circle cx="0" cy="0" r="28" fill="url(#ballGradient)" stroke="#374151" stroke-width="2"/>
+                                    <g fill="#374151" opacity="0.3">
+                                        <polygon points="0,-24 -12,-8 -12,8 0,24 12,8 12,-8"/>
+                                        <path d="M -20,-12 L -24,0 L -20,12 M 20,-12 L 24,0 L 20,12" stroke="#374151" stroke-width="1.5" fill="none"/>
+                                    </g>
+                                    
+                                    <!-- Trajectory prediction line -->
+                                    <path d="M 0,0 Q -40,-30 -80,-20" stroke="#F59E0B" stroke-width="3" fill="none" opacity="0.7" stroke-dasharray="8,4">
+                                        <animate attributeName="stroke-dashoffset" values="0;-24" dur="2s" repeatCount="indefinite"/>
+                                    </path>
+                                    
+                                    <animateTransform attributeName="transform" type="rotate" values="0 320 300;-360 320 300" dur="10s" repeatCount="indefinite"/>
+                                </g>
+                                
+                                <!-- Performance statistics display -->
+                                <g transform="translate(80,320)">
+                                    <!-- Stats background -->
+                                    <rect x="0" y="0" width="120" height="80" rx="8" fill="rgba(255,255,255,0.9)" stroke="rgba(59,130,246,0.3)" stroke-width="2"/>
+                                    
+                                    <!-- Stats bars -->
+                                    <rect x="10" y="15" width="8" height="25" fill="#10B981">
+                                        <animate attributeName="height" values="25;35;25" dur="2.5s" repeatCount="indefinite"/>
+                                    </rect>
+                                    <rect x="22" y="20" width="8" height="20" fill="#3B82F6">
+                                        <animate attributeName="height" values="20;30;20" dur="2.8s" repeatCount="indefinite"/>
+                                    </rect>
+                                    <rect x="34" y="10" width="8" height="30" fill="#F59E0B">
+                                        <animate attributeName="height" values="30;40;30" dur="2.2s" repeatCount="indefinite"/>
+                                    </rect>
+                                    <rect x="46" y="18" width="8" height="22" fill="#EF4444">
+                                        <animate attributeName="height" values="22;32;22" dur="2.6s" repeatCount="indefinite"/>
+                                    </rect>
+                                    
+                                    <!-- Stats labels -->
+                                    <text x="60" y="20" font-size="10" fill="#374151" font-weight="bold">Precisão</text>
+                                    <text x="60" y="32" font-size="8" fill="#10B981" font-weight="bold">87.5%</text>
+                                    <text x="60" y="45" font-size="10" fill="#374151" font-weight="bold">Confiança</text>
+                                    <text x="60" y="57" font-size="8" fill="#3B82F6" font-weight="bold">94.2%</text>
+                                    <text x="60" y="70" font-size="8" fill="#F59E0B" font-weight="bold">⚡ Tempo Real</text>
+                                </g>
+                                
+                                <!-- Floating data particles -->
+                                <g opacity="0.7">
+                                    <circle cx="100" cy="100" r="3" fill="#10B981">
+                                        <animate attributeName="cy" values="100;90;100" dur="3.5s" repeatCount="indefinite"/>
+                                        <animate attributeName="opacity" values="0.7;0.3;0.7" dur="3.5s" repeatCount="indefinite"/>
+                                    </circle>
+                                    <circle cx="350" cy="120" r="4" fill="#3B82F6">
+                                        <animate attributeName="cy" values="120;110;120" dur="2.8s" repeatCount="indefinite"/>
+                                        <animate attributeName="opacity" values="0.7;0.4;0.7" dur="2.8s" repeatCount="indefinite"/>
+                                    </circle>
+                                    <circle cx="380" cy="180" r="2" fill="#F59E0B">
+                                        <animate attributeName="cy" values="180;170;180" dur="4s" repeatCount="indefinite"/>
+                                        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="4s" repeatCount="indefinite"/>
+                                    </circle>
+                                    <circle cx="120" cy="380" r="3" fill="#EF4444">
+                                        <animate attributeName="cy" values="380;370;380" dur="3.2s" repeatCount="indefinite"/>
+                                        <animate attributeName="opacity" values="0.7;0.3;0.7" dur="3.2s" repeatCount="indefinite"/>
+                                    </circle>
+                                    <circle cx="300" cy="80" r="2" fill="#8B5CF6">
+                                        <animate attributeName="cy" values="80;70;80" dur="3.8s" repeatCount="indefinite"/>
+                                        <animate attributeName="opacity" values="0.7;0.4;0.7" dur="3.8s" repeatCount="indefinite"/>
+                                    </circle>
+                                </g>
+                                
+                                <!-- AI Processing indicator -->
+                                <g transform="translate(350,100)">
+                                    <circle cx="0" cy="0" r="20" fill="none" stroke="url(#aiCoreGradient)" stroke-width="4" opacity="0.8">
+                                        <animate attributeName="stroke-dasharray" values="0 126;63 63;0 126" dur="3s" repeatCount="indefinite"/>
+                                        <animateTransform attributeName="transform" type="rotate" values="0;360" dur="3s" repeatCount="indefinite"/>
+                                    </circle>
+                                    <text x="0" y="6" text-anchor="middle" fill="white" font-size="12" font-weight="bold">⚽</text>
+                                </g>
+                                
+                                <!-- Match prediction display -->
+                                <g transform="translate(280,350)">
+                                    <rect x="0" y="0" width="140" height="60" rx="10" fill="rgba(16,185,129,0.1)" stroke="#10B981" stroke-width="2"/>
+                                    <text x="70" y="20" text-anchor="middle" font-size="12" fill="#10B981" font-weight="bold">PREVISÃO IA</text>
+                                    <text x="70" y="35" text-anchor="middle" font-size="10" fill="#374151" font-weight="bold">Over 2.5 Gols</text>
+                                    <text x="70" y="50" text-anchor="middle" font-size="8" fill="#10B981" font-weight="bold">Confiança: 91%</text>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 mt-12">
+                    <div class="text-center bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-chart-bar text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Estatísticas Avançadas</h3>
+                        <p class="text-purple-200">Análises detalhadas com dados históricos e tendências de performance dos times.</p>
+                    </div>
+                    <div class="text-center bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-green-400 to-blue-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-brain text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">IA Preditiva</h3>
+                        <p class="text-purple-200">Algoritmos inteligentes que analisam padrões e geram previsões precisas.</p>
+                    </div>
+                    <div class="text-center bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+                        <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-pink-400 to-red-500 rounded-full flex items-center justify-center">
+                            <i class="fas fa-trophy text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Resultados Comprovados</h3>
+                        <p class="text-purple-200">Taxa de acerto superior a 75% em nossas análises premium.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard Header -->
+        <div class="bg-gradient-to-r from-emerald-900 via-teal-800 to-cyan-900 shadow-lg border-b relative overflow-hidden">
+            <div class="absolute inset-0 opacity-10">
+                <svg viewBox="0 0 1200 100" class="w-full h-full">
+                    <!-- Sports icons pattern -->
+                    <circle cx="50" cy="50" r="15" fill="white"/>
+                    <polygon points="150,30 170,70 130,70" fill="orange"/>
+                    <rect x="220" y="35" width="30" height="30" rx="5" fill="green"/>
+                    <circle cx="320" cy="50" r="12" fill="yellow"/>
+                    <polygon points="400,35 420,45 415,65 405,65" fill="white"/>
+                    <circle cx="500" cy="50" r="18" fill="red"/>
+                    <rect x="580" y="30" width="40" height="40" rx="20" fill="purple"/>
+                    <circle cx="700" cy="50" r="16" fill="cyan"/>
+                    <polygon points="780,25 800,75 760,75" fill="lime"/>
+                    <circle cx="880" cy="50" r="14" fill="pink"/>
+                    <rect x="950" y="40" width="20" height="20" rx="10" fill="orange"/>
+                    <circle cx="1050" cy="50" r="13" fill="gold"/>
+                </svg>
+            </div>
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="flex justify-between items-center py-6">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center shadow-lg">
+                            <i class="fas fa-chart-line text-white text-xl"></i>
+                        </div>
+                        <div>
+                            <h1 class="text-2xl font-bold text-white">Painel de Análises</h1>
+                            <p class="text-emerald-200 text-sm">Análises esportivas em tempo real</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <!-- Live Games Section -->
+            <div class="bg-gradient-to-r from-emerald-700 via-teal-600 to-cyan-600 rounded-xl shadow-lg p-6 mb-8 text-white relative overflow-hidden">
+                <div class="absolute inset-0 opacity-20">
+                    <svg viewBox="0 0 1200 200" class="w-full h-full">
+                        <circle cx="100" cy="100" r="20" fill="white" class="pulse-animation"/>
+                        <rect x="200" y="80" width="40" height="40" rx="8" fill="gold"/>
+                        <polygon points="320,70 340,130 280,130" fill="red"/>
+                        <circle cx="450" cy="100" r="25" fill="orange"/>
+                        <rect x="550" y="75" width="50" height="50" rx="25" fill="lime"/>
+                        <circle cx="700" cy="100" r="18" fill="cyan"/>
+                        <polygon points="800,80 820,120 780,120" fill="pink"/>
+                        <circle cx="950" cy="100" r="22" fill="yellow"/>
+                        <rect x="1050" y="85" width="30" height="30" rx="15" fill="white"/>
+                    </svg>
+                </div>
+                <div class="relative z-10">
+                    <div class="flex items-center justify-between mb-6">
+                        <h2 class="text-2xl font-bold flex items-center">
+                            <i class="fas fa-broadcast-tower mr-3 text-red-400 pulse-animation"></i>
+                            Ao Vivo Agora
+                        </h2>
+                        <div class="flex items-center space-x-2 bg-white/20 backdrop-blur-sm rounded-lg px-3 py-1">
+                            <div class="w-2 h-2 bg-red-500 rounded-full pulse-animation"></div>
+                            <span class="text-sm font-medium">AO VIVO</span>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                        <!-- Sports Section -->
+                        <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-futbol text-green-400 text-xl mr-2"></i>
+                                <h3 class="font-semibold">Esportes</h3>
+                            </div>
+                            <div class="space-y-2 text-sm">
+                                <div class="flex justify-between items-center">
+                                    <span>🏆 Brasileirão</span>
+                                    <span class="bg-green-500 px-2 py-1 rounded text-xs">3 jogos</span>
+                                </div>
+                                <div class="flex justify-between items-center">
+                                    <span>🌍 Premier League</span>
+                                    <span class="bg-blue-500 px-2 py-1 rounded text-xs">2 jogos</span>
+                                </div>
+                                <div class="flex justify-between items-center">
+                                    <span>🏀 NBA</span>
+                                    <span class="bg-orange-500 px-2 py-1 rounded text-xs">4 jogos</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Casino Section -->
+                        <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-dice text-red-400 text-xl mr-2"></i>
+                                <h3 class="font-semibold">Casino</h3>
+                            </div>
+                            <div class="space-y-2 text-sm">
+                                <div class="flex justify-between items-center">
+                                    <span>🎰 Roleta Europeia</span>
+                                    <span class="bg-red-500 px-2 py-1 rounded text-xs">AO VIVO</span>
+                                </div>
+                                <div class="flex justify-between items-center">
+                                    <span>🃏 Blackjack</span>
+                                    <span class="bg-yellow-500 px-2 py-1 rounded text-xs">AO VIVO</span>
+                                </div>
+                                <div class="flex justify-between items-center">
+                                    <span>🎲 Baccarat</span>
+                                    <span class="bg-purple-500 px-2 py-1 rounded text-xs">AO VIVO</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slots Section -->
+                        <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-coins text-yellow-400 text-xl mr-2"></i>
+                                <h3 class="font-semibold">Slots</h3>
+                            </div>
+                            <div class="space-y-2 text-sm">
+                                <div class="flex justify-between items-center">
+                                    <span>💎 Gates of Olympus</span>
+                                    <span class="bg-gold-500 bg-yellow-500 px-2 py-1 rounded text-xs">HOT</span>
+                                </div>
+                                <div class="flex justify-between items-center">
+                                    <span>🍭 Sweet Bonanza</span>
+                                    <span class="bg-pink-500 px-2 py-1 rounded text-xs">NEW</span>
+                                </div>
+                                <div class="flex justify-between items-center">
+                                    <span>🐺 Wolf Gold</span>
+                                    <span class="bg-orange-500 px-2 py-1 rounded text-xs">TOP</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Virtual Sports -->
+                        <div class="bg-white/10 backdrop-blur-sm rounded-lg p-4 card-hover">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-desktop text-cyan-400 text-xl mr-2"></i>
+                                <h3 class="font-semibold">Virtuais</h3>
+                            </div>
+                            <div class="space-y-2 text-sm">
+                                <div class="flex justify-between items-center">
+                                    <span>🏇 Corrida Virtual</span>
+                                    <span class="bg-green-500 px-2 py-1 rounded text-xs">2min</span>
+                                </div>
+                                <div class="flex justify-between items-center">
+                                    <span>⚽ Futebol Virtual</span>
+                                    <span class="bg-blue-500 px-2 py-1 rounded text-xs">1min</span>
+                                </div>
+                                <div class="flex justify-between items-center">
+                                    <span>🏎️ F1 Virtual</span>
+                                    <span class="bg-red-500 px-2 py-1 rounded text-xs">3min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filters -->
+            <div class="bg-white rounded-lg shadow p-6 mb-8">
+                <h3 class="text-lg font-semibold mb-4">Filtros</h3>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <select class="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option>Todos os Esportes</option>
+                        <option>Futebol</option>
+                        <option>Basquete</option>
+                        <option>Tênis</option>
+                    </select>
+                    <select class="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option>Todas as Ligas</option>
+                        <option>Brasileirão</option>
+                        <option>Premier League</option>
+                        <option>Champions League</option>
+                    </select>
+                    <input type="date" class="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <select class="px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option>Todos os Times</option>
+                        <option>Flamengo</option>
+                        <option>Palmeiras</option>
+                        <option>São Paulo</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Stats Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+                <div class="bg-gradient-to-br from-white to-blue-50 rounded-xl shadow-lg p-6 border border-blue-100 card-hover">
+                    <div class="flex items-center">
+                        <div class="p-4 rounded-xl bg-gradient-to-br from-blue-500 to-blue-600 text-white shadow-lg">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-sm font-medium text-gray-600">Taxa de Acerto</p>
+                            <p class="text-3xl font-bold text-gray-900">78.5%</p>
+                            <p class="text-xs text-green-600 font-semibold">↗ +2.3% esta semana</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-white to-green-50 rounded-xl shadow-lg p-6 border border-green-100 card-hover">
+                    <div class="flex items-center">
+                        <div class="p-4 rounded-xl bg-gradient-to-br from-green-500 to-green-600 text-white shadow-lg">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-sm font-medium text-gray-600">Análises Hoje</p>
+                            <p class="text-3xl font-bold text-gray-900">12</p>
+                            <p class="text-xs text-blue-600 font-semibold">🔥 6 jogos em destaque</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-white to-orange-50 rounded-xl shadow-lg p-6 border border-orange-100 card-hover">
+                    <div class="flex items-center">
+                        <div class="p-4 rounded-xl bg-gradient-to-br from-orange-500 to-red-500 text-white shadow-lg">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M8 12h8M12 8v8" stroke="white" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-sm font-medium text-gray-600">Jogos Analisados</p>
+                            <p class="text-3xl font-bold text-gray-900">156</p>
+                            <p class="text-xs text-purple-600 font-semibold">⚽ 89% futebol</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gradient-to-br from-white to-purple-50 rounded-xl shadow-lg p-6 border border-purple-100 card-hover">
+                    <div class="flex items-center">
+                        <div class="p-4 rounded-xl bg-gradient-to-br from-purple-500 to-indigo-600 text-white shadow-lg">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
+                            </svg>
+                        </div>
+                        <div class="ml-4">
+                            <p class="text-sm font-medium text-gray-600">Dias Restantes</p>
+                            <p class="text-3xl font-bold text-gray-900">23</p>
+                            <p class="text-xs text-yellow-600 font-semibold">👑 Plano Premium</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
+                <!-- Left Column - Charts and Analysis -->
+                <div class="lg:col-span-2 space-y-8">
+                    <!-- Performance Chart -->
+                    <div class="bg-white rounded-lg shadow p-6">
+                        <h3 class="text-lg font-semibold mb-4">Desempenho por Time</h3>
+                        <canvas id="performanceChart" width="400" height="200"></canvas>
+                    </div>
+
+                    <!-- Recent Analyses -->
+                    <div class="bg-gradient-to-br from-white to-gray-50 rounded-xl shadow-lg p-6 border border-gray-100">
+                        <div class="flex items-center justify-between mb-6">
+                            <h3 class="text-lg font-semibold text-gray-800">Análises em Destaque</h3>
+                            <div class="flex items-center space-x-2 text-sm text-gray-500">
+                                <i class="fas fa-fire text-orange-500"></i>
+                                <span>Ao vivo</span>
+                            </div>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="bg-gradient-to-r from-red-50 to-black-50 border border-red-100 rounded-xl p-4 card-hover">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center space-x-3">
+                                        <div class="flex items-center space-x-2">
+                                            <div class="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center">
+                                                <span class="text-white text-xs font-bold">FLA</span>
+                                            </div>
+                                            <span class="text-xs text-gray-500">vs</span>
+                                            <div class="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center">
+                                                <span class="text-white text-xs font-bold">PAL</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p class="font-semibold text-gray-800">Flamengo vs Palmeiras</p>
+                                            <p class="text-sm text-gray-600">🏆 Brasileirão • Hoje 16:00</p>
+                                        </div>
+                                    </div>
+                                    <div class="text-right">
+                                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs font-bold">
+                                            85% ✓
+                                        </span>
+                                        <p class="text-xs text-gray-500 mt-1">Over 2.5</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-gradient-to-r from-blue-50 to-red-50 border border-blue-100 rounded-xl p-4 card-hover">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center space-x-3">
+                                        <div class="flex items-center space-x-2">
+                                            <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center">
+                                                <span class="text-white text-xs font-bold">SPF</span>
+                                            </div>
+                                            <span class="text-xs text-gray-500">vs</span>
+                                            <div class="w-8 h-8 bg-black rounded-full flex items-center justify-center">
+                                                <span class="text-white text-xs font-bold">COR</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p class="font-semibold text-gray-800">São Paulo vs Corinthians</p>
+                                            <p class="text-sm text-gray-600">🏆 Brasileirão • Amanhã 18:30</p>
+                                        </div>
+                                    </div>
+                                    <div class="text-right">
+                                        <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-xs font-bold">
+                                            72% ⚠
+                                        </span>
+                                        <p class="text-xs text-gray-500 mt-1">Empate</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-gradient-to-r from-blue-50 to-red-50 border border-green-100 rounded-xl p-4 card-hover">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center space-x-3">
+                                        <div class="flex items-center space-x-2">
+                                            <div class="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
+                                                <span class="text-white text-xs font-bold">GRE</span>
+                                            </div>
+                                            <span class="text-xs text-gray-500">vs</span>
+                                            <div class="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center">
+                                                <span class="text-white text-xs font-bold">INT</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p class="font-semibold text-gray-800">Grêmio vs Internacional</p>
+                                            <p class="text-sm text-gray-600">🏆 Brasileirão • Dom 20:00</p>
+                                        </div>
+                                    </div>
+                                    <div class="text-right">
+                                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-xs font-bold">
+                                            91% 🔥
+                                        </span>
+                                        <p class="text-xs text-gray-500 mt-1">Casa vence</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Sidebar - Games List -->
+                <div class="lg:col-span-1">
+                    <div class="bg-gradient-to-br from-white to-blue-50 rounded-xl shadow-lg p-6 border border-blue-100 sticky top-24">
+                        <div class="flex items-center justify-between mb-6">
+                            <h3 class="text-lg font-semibold text-gray-800 flex items-center">
+                                <i class="fas fa-list-ul mr-2 text-blue-600"></i>
+                                Jogos Disponíveis
+                            </h3>
+                            <span class="bg-blue-100 text-blue-800 px-2 py-1 rounded-full text-xs font-bold">
+                                8 jogos
+                            </span>
+                        </div>
+                        
+                        <div class="space-y-4 max-h-96 overflow-y-auto">
+                            <!-- Game 1 -->
+                            <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                                <div class="flex items-center justify-between mb-3">
+                                    <div class="flex items-center space-x-2">
+                                        <div class="w-6 h-6 bg-red-600 rounded-full flex items-center justify-center">
+                                            <span class="text-white text-xs font-bold">FL</span>
+                                        </div>
+                                        <span class="text-xs text-gray-400">vs</span>
+                                        <div class="w-6 h-6 bg-green-600 rounded-full flex items-center justify-center">
+                                            <span class="text-white text-xs font-bold">PA</span>
+                                        </div>
+                                    </div>
+                                    <span class="text-xs text-green-600 font-semibold">🔴 AO VIVO</span>
+                                </div>
+                                <p class="text-sm font-semibold text-gray-800 mb-1">Flamengo vs Palmeiras</p>
+                                <p class="text-xs text-gray-500 mb-3">Brasileirão • 16:00</p>
+                                <button onclick="purchaseAnalysis('flamengo-palmeiras')" class="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white text-xs font-bold py-2 px-3 rounded-lg transition-all duration-300 shadow-md">
+                                    <i class="fas fa-chart-line mr-1"></i>
+                                    Comprar Análise - R$ 15
+                                </button>
+                            </div>
+
+                            <!-- Game 2 -->
+                            <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                                <div class="flex items-center justify-between mb-3">
+                                    <div class="flex items-center space-x-2">
+                                        <div class="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center">
+                                            <span class="text-white text-xs font-bold">SP</span>
+                                        </div>
+                                        <span class="text-xs text-gray-400">vs</span>
+                                        <div class="w-6 h-6 bg-black rounded-full flex items-center justify-center">
+                                            <span class="text-white text-xs font-bold">CO</span>
+                                        </div>
+                                    </div>
+                                    <span class="text-xs text-orange-600 font-semibold">⏰ 2h</span>
+                                </div>
+                                <p class="text-sm font-semibold text-gray-800 mb-1">São Paulo vs Corinthians</p>
+                                <p class="text-xs text-gray-500 mb-3">Brasileirão • Amanhã 18:30</p>
+                                <button onclick="purchaseAnalysis('sao-paulo-corinthians')" class="w-full bg-gradient-to-r from-green-600 to-blue-600 hover:from-green-700 hover:to-blue-700 text-white text-xs font-bold py-2 px-3 rounded-lg transition-all duration-300 shadow-md">
+                                    <i class="fas fa-chart-line mr-1"></i>
+                                    Comprar Análise - R$ 12
+                                </button>
+                            </div>
+
+                            <!-- Game 3 -->
+                            <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                                <div class="flex items-center justify-between mb-3">
+                                    <div class="flex items-center space-x-2">
+                                        <div class="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center">
+                                            <span class="text-white text-xs font-bold">GR</span>
+                                        </div>
+                                        <span class="text-xs text-gray-400">vs</span>
+                                        <div class="w-6 h-6 bg-red-600 rounded-full flex items-center justify-center">
+                                            <span class="text-white text-xs font-bold">IN</span>
+                                        </div>
+                                    </div>
+                                    <span class="text-xs text-blue-600 font-semibold">🔥 HOT</span>
+                                </div>
+                                <p class="text-sm font-semibold text-gray-800 mb-1">Grêmio vs Internacional</p>
+                                <p class="text-xs text-gray-500 mb-3">Brasileirão • Dom 20:00</p>
+                                <button onclick="purchaseAnalysis('gremio-internacional')" class="w-full bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white text-xs font-bold py-2 px-3 rounded-lg transition-all duration-300 shadow-md">
+                                    <i class="fas fa-chart-line mr-1"></i>
+                                    Comprar Análise - R$ 18
+                                </button>
+                            </div>
+
+                            <!-- Game 4 -->
+                            <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                                <div class="flex items-center justify-between mb-3">
+                                    <div class="flex items-center space-x-2">
+                                        <div class="w-6 h-6 bg-yellow-600 rounded-full flex items-center justify-center">
+                                            <span class="text-white text-xs font-bold">AT</span>
+                                        </div>
+                                        <span class="text-xs text-gray-400">vs</span>
+                                        <div class="w-6 h-6 bg-green-700 rounded-full flex items-center justify-center">
+                                            <span class="text-white text-xs font-bold">FL</span>
+                                        </div>
+                                    </div>
+                                    <span class="text-xs text-purple-600 font-semibold">⭐ VIP</span>
+                                </div>
+                                <p class="text-sm font-semibold text-gray-800 mb-1">Atlético-MG vs Fluminense</p>
+                                <p class="text-xs text-gray-500 mb-3">Brasileirão • Seg 21:00</p>
+                                <button onclick="purchaseAnalysis('atletico-fluminense')" class="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white text-xs font-bold py-2 px-3 rounded-lg transition-all duration-300 shadow-md">
+                                    <i class="fas fa-crown mr-1"></i>
+                                    Análise VIP - R$ 25
+                                </button>
+                            </div>
+
+                            <!-- Game 5 -->
+                            <div class="bg-white border border-gray-200 rounded-lg p-4 card-hover">
+                                <div class="flex items-center justify-between mb-3">
+                                    <div class="flex items-center space-x-2">
+                                        <div class="w-6 h-6 bg-red-700 rounded-full flex items-center justify-center">
+                                            <span class="text-white text-xs font-bold">VA</span>
+                                        </div>
+                                        <span class="text-xs text-gray-400">vs</span>
+                                        <div class="w-6 h-6 bg-blue-800 rounded-full flex items-center justify-center">
+                                            <span class="text-white text-xs font-bold">CR</span>
+                                        </div>
+                                    </div>
+                                    <span class="text-xs text-gray-600 font-semibold">📊 NEW</span>
+                                </div>
+                                <p class="text-sm font-semibold text-gray-800 mb-1">Vasco vs Cruzeiro</p>
+                                <p class="text-xs text-gray-500 mb-3">Brasileirão • Ter 19:00</p>
+                                <button onclick="purchaseAnalysis('vasco-cruzeiro')" class="w-full bg-gradient-to-r from-gray-600 to-blue-600 hover:from-gray-700 hover:to-blue-700 text-white text-xs font-bold py-2 px-3 rounded-lg transition-all duration-300 shadow-md">
+                                    <i class="fas fa-chart-line mr-1"></i>
+                                    Comprar Análise - R$ 10
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 pt-4 border-t border-gray-200">
+                            <div class="text-center">
+                                <p class="text-xs text-gray-500 mb-2">💰 Pacote Completo</p>
+                                <button onclick="purchaseAllAnalyses()" class="w-full bg-gradient-to-r from-gold-500 from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white text-sm font-bold py-3 px-4 rounded-lg transition-all duration-300 shadow-lg">
+                                    <i class="fas fa-star mr-2"></i>
+                                    Todas as Análises - R$ 79
+                                    <div class="text-xs opacity-90 mt-1">Economize R$ 21!</div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- Statistics Table -->
+<div class="bg-white rounded-lg shadow p-6">
+    <h3 class="text-lg font-semibold mb-4">Estatísticas Comparativas</h3>
+    <div class="overflow-x-auto">
+        <table class="min-w-full divide-y divide-gray-300 rounded-lg overflow-hidden shadow-md">
+            <thead class="bg-green-900">
+                <tr>
+                    <th class="px-6 py-3 text-left text-xs font-bold text-white uppercase tracking-wider">Time</th>
+                    <th class="px-6 py-3 text-left text-xs font-bold text-white uppercase tracking-wider">Jogos</th>
+                    <th class="px-6 py-3 text-left text-xs font-bold text-white uppercase tracking-wider">Vitórias</th>
+                    <th class="px-6 py-3 text-left text-xs font-bold text-white uppercase tracking-wider">Gols Pró</th>
+                    <th class="px-6 py-3 text-left text-xs font-bold text-white uppercase tracking-wider">Gols Contra</th>
+                    <th class="px-6 py-3 text-left text-xs font-bold text-white uppercase tracking-wider">Aproveitamento</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+                <tr class="bg-green-50">
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-gray-800">Flamengo</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-green-700">28</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-green-700">18</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-green-700">45</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-green-700">22</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-red-600 font-extrabold">71.4%</td>
+                </tr>
+                <tr class="bg-white">
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-gray-800">Palmeiras</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-green-700">28</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-green-700">16</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-green-700">38</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-green-700">18</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-yellow-600 font-extrabold">67.9%</td>
+                </tr>
+                <tr class="bg-green-50">
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-gray-800">São Paulo</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-green-700">28</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-green-700">14</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-green-700">32</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-green-700">25</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-yellow-700 font-extrabold">58.3%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-slate-800 via-gray-800 to-slate-900 text-white py-12 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Company Info -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-chart-line text-blue-400 text-2xl"></i>
+                        <div>
+                            <span class="text-2xl font-bold">ZupBet</span>
+                            <p class="text-xs text-gray-400 font-medium">Estatística que vira lucro</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 text-sm leading-relaxed">
+                        Plataforma premium de análises esportivas com inteligência artificial e estatísticas avançadas para maximizar seus resultados.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
+                            <i class="fab fa-facebook-f text-lg"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
+                            <i class="fab fa-instagram text-lg"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
+                            <i class="fab fa-twitter text-lg"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
+                            <i class="fab fa-telegram text-lg"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="space-y-4">
+                    <h3 class="text-lg font-semibold text-white">Contato</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-globe text-blue-400"></i>
+                            <a href="https://www.zupbet.com.br" target="_blank" rel="noopener noreferrer" class="text-gray-300 hover:text-blue-400 transition-colors">
+                                www.zupbet.com.br
+                            </a>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-phone text-green-400"></i>
+                            <a href="tel:+5561981105902" class="text-gray-300 hover:text-green-400 transition-colors">
+                                (61) 98110-5902
+                            </a>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-map-marker-alt text-red-400"></i>
+                            <span class="text-gray-300">Brasília - DF</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-envelope text-yellow-400"></i>
+                            <a href="mailto:contato@zupbet.com.br" class="text-gray-300 hover:text-yellow-400 transition-colors">
+                                contato@zupbet.com.br
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="space-y-4">
+                    <h3 class="text-lg font-semibold text-white">Links Rápidos</h3>
+                    <div class="space-y-2">
+                        <button onclick="showAbout()" class="block text-gray-300 hover:text-blue-400 transition-colors text-sm text-left">
+                            <i class="fas fa-chevron-right text-xs mr-2"></i>Sobre Nós
+                        </button>
+                        <button onclick="showPlans()" class="block text-gray-300 hover:text-blue-400 transition-colors text-sm text-left">
+                            <i class="fas fa-chevron-right text-xs mr-2"></i>Planos Premium
+                        </button>
+                        <button onclick="showTerms()" class="block text-gray-300 hover:text-blue-400 transition-colors text-sm text-left">
+                            <i class="fas fa-chevron-right text-xs mr-2"></i>Termos de Uso
+                        </button>
+                        <button onclick="showPrivacy()" class="block text-gray-300 hover:text-blue-400 transition-colors text-sm text-left">
+                            <i class="fas fa-chevron-right text-xs mr-2"></i>Política de Privacidade
+                        </button>
+                        <button onclick="showSupport()" class="block text-gray-300 hover:text-blue-400 transition-colors text-sm text-left">
+                            <i class="fas fa-chevron-right text-xs mr-2"></i>Suporte Técnico
+                        </button>
+                        <button onclick="showFAQ()" class="block text-gray-300 hover:text-blue-400 transition-colors text-sm text-left">
+                            <i class="fas fa-chevron-right text-xs mr-2"></i>FAQ
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="border-t border-gray-700 mt-8 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                    <div class="text-gray-400 text-sm">
+                        © 2025 ZupBet. Todos os direitos reservados.
+                    </div>
+                    <div class="flex items-center space-x-6 text-sm text-gray-400">
+                        <span class="flex items-center">
+                            <i class="fas fa-shield-alt text-green-400 mr-2"></i>
+                            Plataforma Segura
+                        </span>
+                        <span class="flex items-center">
+                            <i class="fas fa-lock text-blue-400 mr-2"></i>
+                            SSL Certificado
+                        </span>
+                        <span class="flex items-center">
+                            <i class="fas fa-medal text-yellow-400 mr-2"></i>
+                            +18 Responsável
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Global state
+        let currentUser = null;
+        let selectedPlan = null;
+
+        // Initialize app
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if user is logged in
+            const savedUser = localStorage.getItem('zupbet_user');
+            if (savedUser) {
+                currentUser = JSON.parse(savedUser);
+                if (currentUser.membershipActive) {
+                    showDashboard();
+                } else {
+                    showHome();
+                }
+            } else {
+                // Create demo user and show dashboard by default
+                currentUser = {
+                    id: 'demo',
+                    name: 'Analista Premium',
+                    email: 'demo@zupbet.com',
+                    membershipActive: true,
+                    planType: 'premium',
+                    paymentDate: new Date().toISOString(),
+                    membershipExpires: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString()
+                };
+                showDashboard();
+            }
+
+            // Setup payment method toggle
+            const paymentRadios = document.querySelectorAll('input[name="paymentMethod"]');
+            paymentRadios.forEach(radio => {
+                radio.addEventListener('change', function() {
+                    const cardDetails = document.getElementById('cardDetails');
+                    if (this.value === 'card') {
+                        cardDetails.classList.remove('hidden');
+                    } else {
+                        cardDetails.classList.add('hidden');
+                    }
+                });
+            });
+
+            // Initialize chart if dashboard is visible
+            if (!document.getElementById('dashboard').classList.contains('hidden')) {
+                initializeChart();
+            }
+        });
+
+        // Navigation functions
+
+        function showAbout() {
+            hideAllPages();
+            document.getElementById('aboutPage').classList.remove('hidden');
+        }
+
+        function showTerms() {
+            hideAllPages();
+            document.getElementById('termsPage').classList.remove('hidden');
+        }
+
+        function showPrivacy() {
+            hideAllPages();
+            document.getElementById('privacyPage').classList.remove('hidden');
+        }
+
+        function showSupport() {
+            hideAllPages();
+            document.getElementById('supportPage').classList.remove('hidden');
+        }
+
+        function showFAQ() {
+            hideAllPages();
+            document.getElementById('faqPage').classList.remove('hidden');
+        }
+
+        function showLogin() {
+            document.getElementById('loginModal').classList.remove('hidden');
+        }
+
+        function showRegister() {
+            document.getElementById('registerModal').classList.remove('hidden');
+        }
+
+        function showPlans() {
+            hideAllPages();
+            document.getElementById('plansPage').classList.remove('hidden');
+        }
+
+        function showPayment() {
+            hideAllPages();
+            document.getElementById('paymentPage').classList.remove('hidden');
+        }
+
+        function showDashboard() {
+            hideAllPages();
+            document.getElementById('dashboard').classList.remove('hidden');
+            if (currentUser) {
+                document.getElementById('userWelcome').textContent = `Bem-vindo, ${currentUser.name}!`;
+            }
+            // Initialize chart when dashboard is shown
+            setTimeout(initializeChart, 100);
+        }
+
+        function hideAllPages() {
+            document.getElementById('plansPage').classList.add('hidden');
+            document.getElementById('paymentPage').classList.add('hidden');
+            document.getElementById('dashboard').classList.add('hidden');
+            document.getElementById('aboutPage').classList.add('hidden');
+            document.getElementById('termsPage').classList.add('hidden');
+            document.getElementById('privacyPage').classList.add('hidden');
+            document.getElementById('supportPage').classList.add('hidden');
+            document.getElementById('faqPage').classList.add('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('loginModal').classList.add('hidden');
+            document.getElementById('registerModal').classList.add('hidden');
+        }
+
+        function toggleFAQ(id) {
+            const content = document.getElementById(`faq-content-${id}`);
+            const icon = document.getElementById(`faq-icon-${id}`);
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.classList.remove('fa-chevron-down');
+                icon.classList.add('fa-chevron-up');
+            } else {
+                content.classList.add('hidden');
+                icon.classList.remove('fa-chevron-up');
+                icon.classList.add('fa-chevron-down');
+            }
+        }
+
+        function submitSupportForm(event) {
+            event.preventDefault();
+            alert('Mensagem enviada com sucesso! Nossa equipe entrará em contato em breve.');
+            event.target.reset();
+        }
+
+        // Authentication functions
+        function handleLogin(event) {
+            event.preventDefault();
+            const email = document.getElementById('loginEmail').value;
+            const password = document.getElementById('loginPassword').value;
+
+            // Simulate login (in real app, this would be an API call)
+            const users = JSON.parse(localStorage.getItem('zupbet_users') || '[]');
+            const user = users.find(u => u.email === email && u.password === password);
+
+            if (user) {
+                currentUser = user;
+                localStorage.setItem('zupbet_user', JSON.stringify(user));
+                closeModal();
+                
+                if (user.membershipActive) {
+                    showDashboard();
+                } else {
+                    showPlans();
+                }
+                
+                alert('Login realizado com sucesso!');
+            } else {
+                alert('Email ou senha incorretos!');
+            }
+        }
+
+        function handleRegister(event) {
+            event.preventDefault();
+            const name = document.getElementById('registerName').value;
+            const email = document.getElementById('registerEmail').value;
+            const password = document.getElementById('registerPassword').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+
+            if (password !== confirmPassword) {
+                alert('As senhas não coincidem!');
+                return;
+            }
+
+            // Check if user already exists
+            const users = JSON.parse(localStorage.getItem('zupbet_users') || '[]');
+            if (users.find(u => u.email === email)) {
+                alert('Este email já está cadastrado!');
+                return;
+            }
+
+            // Create new user
+            const newUser = {
+                id: Date.now(),
+                name,
+                email,
+                password,
+                membershipActive: false,
+                createdAt: new Date().toISOString()
+            };
+
+            users.push(newUser);
+            localStorage.setItem('zupbet_users', JSON.stringify(users));
+            
+            currentUser = newUser;
+            localStorage.setItem('zupbet_user', JSON.stringify(newUser));
+            
+            closeModal();
+            showPlans();
+            alert('Conta criada com sucesso! Escolha um plano para continuar.');
+        }
+
+        function logout() {
+            currentUser = null;
+            localStorage.removeItem('zupbet_user');
+            showDashboard();
+            alert('Logout realizado com sucesso!');
+        }
+
+        // Plan selection
+        function selectPlan(planType, price) {
+            if (!currentUser) {
+                alert('Faça login ou registre-se primeiro!');
+                showLogin();
+                return;
+            }
+
+            selectedPlan = { type: planType, price: price };
+            
+            const planNames = {
+                'monthly': 'Plano Mensal',
+                'quarterly': 'Plano Trimestral',
+                'annual': 'Plano Anual'
+            };
+
+            document.getElementById('selectedPlanInfo').innerHTML = `
+                <div class="flex justify-between items-center">
+                    <div>
+                        <h4 class="text-lg font-semibold">${planNames[planType]}</h4>
+                        <p class="text-gray-600">Acesso completo às análises premium</p>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-2xl font-bold text-blue-600">R$ ${price}</div>
+                    </div>
+                </div>
+            `;
+            
+            showPayment();
+        }
+
+        // Payment processing
+        function processPayment(event) {
+            event.preventDefault();
+            
+            if (!selectedPlan) {
+                alert('Erro: Nenhum plano selecionado!');
+                return;
+            }
+
+            const paymentMethod = document.querySelector('input[name="paymentMethod"]:checked').value;
+            
+            // Simulate payment processing
+            setTimeout(() => {
+                // Update user membership
+                currentUser.membershipActive = true;
+                currentUser.planType = selectedPlan.type;
+                currentUser.paymentDate = new Date().toISOString();
+                
+                // Calculate expiration date
+                const expirationDate = new Date();
+                switch(selectedPlan.type) {
+                    case 'monthly':
+                        expirationDate.setMonth(expirationDate.getMonth() + 1);
+                        break;
+                    case 'quarterly':
+                        expirationDate.setMonth(expirationDate.getMonth() + 3);
+                        break;
+                    case 'annual':
+                        expirationDate.setFullYear(expirationDate.getFullYear() + 1);
+                        break;
+                }
+                currentUser.membershipExpires = expirationDate.toISOString();
+                
+                // Save updated user
+                localStorage.setItem('zupbet_user', JSON.stringify(currentUser));
+                
+                // Update users array
+                const users = JSON.parse(localStorage.getItem('zupbet_users') || '[]');
+                const userIndex = users.findIndex(u => u.id === currentUser.id);
+                if (userIndex !== -1) {
+                    users[userIndex] = currentUser;
+                    localStorage.setItem('zupbet_users', JSON.stringify(users));
+                }
+                
+                alert(`Pagamento aprovado! Bem-vindo ao ZupBet Premium!`);
+                showDashboard();
+            }, 2000);
+            
+            // Show loading state
+            event.target.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> Processando pagamento...';
+            event.target.disabled = true;
+        }
+
+        // Purchase analysis functions
+        function purchaseAnalysis(gameId) {
+            if (!currentUser || !currentUser.membershipActive) {
+                alert('Você precisa ser membro premium para comprar análises individuais!');
+                showPlans();
+                return;
+            }
+
+            const gameNames = {
+                'flamengo-palmeiras': 'Flamengo vs Palmeiras',
+                'sao-paulo-corinthians': 'São Paulo vs Corinthians',
+                'gremio-internacional': 'Grêmio vs Internacional',
+                'atletico-fluminense': 'Atlético-MG vs Fluminense',
+                'vasco-cruzeiro': 'Vasco vs Cruzeiro'
+            };
+
+            const gamePrices = {
+                'flamengo-palmeiras': 15,
+                'sao-paulo-corinthians': 12,
+                'gremio-internacional': 18,
+                'atletico-fluminense': 25,
+                'vasco-cruzeiro': 10
+            };
+
+            const gameName = gameNames[gameId] || 'Jogo selecionado';
+            const price = gamePrices[gameId] || 15;
+
+            if (confirm(`Deseja comprar a análise completa de ${gameName} por R$ ${price}?`)) {
+                // Simulate purchase
+                setTimeout(() => {
+                    alert(`✅ Análise de ${gameName} adquirida com sucesso!\n\n📊 Sua análise detalhada está disponível no dashboard.\n\n🎯 Recomendação: Over 2.5 gols\n📈 Confiança: 87%\n💡 Dica extra: Aposte no primeiro tempo com mais de 1 gol`);
+                    
+                    // Add to user's purchased analyses
+                    if (!currentUser.purchasedAnalyses) {
+                        currentUser.purchasedAnalyses = [];
+                    }
+                    currentUser.purchasedAnalyses.push({
+                        gameId: gameId,
+                        gameName: gameName,
+                        price: price,
+                        purchaseDate: new Date().toISOString(),
+                        recommendation: 'Over 2.5 gols',
+                        confidence: '87%'
+                    });
+                    
+                    localStorage.setItem('zupbet_user', JSON.stringify(currentUser));
+                }, 1000);
+            }
+        }
+
+        function purchaseAllAnalyses() {
+            if (!currentUser || !currentUser.membershipActive) {
+                alert('Você precisa ser membro premium para comprar o pacote completo!');
+                showPlans();
+                return;
+            }
+
+            if (confirm('Deseja comprar TODAS as análises disponíveis por R$ 79?\n\n✅ 8 análises completas\n💰 Economia de R$ 21\n🎯 Recomendações detalhadas\n📊 Estatísticas avançadas')) {
+                setTimeout(() => {
+                    alert('🎉 PACOTE COMPLETO ADQUIRIDO!\n\n✅ Todas as 8 análises foram liberadas\n📊 Acesso total às estatísticas premium\n🎯 Recomendações para todos os jogos\n💎 Análises VIP incluídas\n\nVerifique seu dashboard para acessar todo o conteúdo!');
+                    
+                    // Add all analyses to user
+                    currentUser.purchasedAnalyses = [
+                        { gameId: 'flamengo-palmeiras', gameName: 'Flamengo vs Palmeiras', recommendation: 'Over 2.5', confidence: '85%' },
+                        { gameId: 'sao-paulo-corinthians', gameName: 'São Paulo vs Corinthians', recommendation: 'Empate', confidence: '72%' },
+                        { gameId: 'gremio-internacional', gameName: 'Grêmio vs Internacional', recommendation: 'Casa vence', confidence: '91%' },
+                        { gameId: 'atletico-fluminense', gameName: 'Atlético-MG vs Fluminense', recommendation: 'Over 1.5', confidence: '88%' },
+                        { gameId: 'vasco-cruzeiro', gameName: 'Vasco vs Cruzeiro', recommendation: 'Fora vence', confidence: '76%' }
+                    ];
+                    currentUser.hasFullPackage = true;
+                    currentUser.packagePurchaseDate = new Date().toISOString();
+                    
+                    localStorage.setItem('zupbet_user', JSON.stringify(currentUser));
+                }, 1500);
+            }
+        }
+
+        // Initialize performance chart
+        function initializeChart() {
+            const ctx = document.getElementById('performanceChart');
+            if (!ctx) return;
+
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun'],
+                    datasets: [{
+                        label: 'Taxa de Acerto (%)',
+                        data: [72, 75, 78, 76, 81, 78],
+                        borderColor: 'rgb(59, 130, 246)',
+                        backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: false,
+                            min: 60,
+                            max: 90
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'983d700c8669f17f',t:'MTc1ODY2NjExNC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
